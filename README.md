@@ -9,10 +9,10 @@ Example C++17 makefile is available.
 
 Usage: drag-n-drop file onto the built executable or run from cmd/terminal with a file path as the single argument
 
+<br/>
 
 Tested using a bookmarks file with ~8000 entries, with partial support for special urls created by extensions.
 
-Tested with entries created by:
-https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/
+Tested with special urls provided by: https://addons.mozilla.org/en-US/firefox/addon/tab-session-manager/
 
 Also supports bookmarks of local files (i.e. file://c:/mydoc.pdf)
