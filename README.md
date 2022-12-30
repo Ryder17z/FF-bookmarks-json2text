@@ -7,6 +7,9 @@ C++17 makefile is available.
 ![image](https://user-images.githubusercontent.com/2000703/210113268-70e1f8d4-bd0b-4dcc-940e-4f392eab302d.png)
 
 
+Usage: drag-n-drop file onto the built executable or run from cmd/terminal with a file path as the single argument
+
+
 Tested using a bookmarks file with ~8000 entries, with partial support for special urls created by extensions.
 
 Tested with entries created by:
