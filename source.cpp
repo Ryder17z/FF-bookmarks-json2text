@@ -1,20 +1,5 @@
-#include <algorithm>
-#include <cstdlib>
-#include <array>
-#include <string>
 #include <iostream>
-#include <random>
-#include <stdio.h>
-#include <string.h>
-#include <cstring>
-#include <string>
 #include <vector>
-#include <unordered_map>
-#include <stdlib.h>
-#include <ctype.h>
-#include <iostream>
-#include <regex>
-#include <sstream>
 #include <stdexcept>
 #include <fstream>
 
@@ -62,7 +47,7 @@ std::string extracturi(const std::string& src)
     if (result != src.end()) {
         return std::string(result, src.end());
     } else {
-        result = std::search(src.begin(), src.end(), "https%3A%2F%2F", "https%3A%2F%2F" + 13);
+        result = std::search(src.begin(), src.end(), "http%3A%2F%2F", "http%3A%2F%2F" + 13);
         if (result != src.end()) {
             return std::string(result, src.end());
         }
